@@ -255,10 +255,11 @@
                     <label type="emailid">Email:
                     <input type="email" id="email" name="email" class="form-control" />
                   </div>
-                  <div class="form-group">
-                    Country:
-                    <input type="text" name="country" class="form-control" />
-                  </div>
+		<!-- The label is added for accessibility-->
+                   <div class="form-group">
+                  <label for="country">Country:</label>
+                  <input type="text" name="country" id="country" class="form-control" autocomplete="country-name"/>
+                </div>
                   <div class="form-group">
                     <div>Desired major(s):</div>
                     <div class="" id="majors">
