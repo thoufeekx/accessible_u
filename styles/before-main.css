@@ -71,10 +71,7 @@ a {
  * Provide additional visual cues to mouse users only
  *
  */
-a:hover {
-  color:#666666;
-  text-decoration: none;
-}
+
 
 /*
  * Overrides browsers' visible focus indicator
