@@ -93,3 +93,12 @@ a:hover {
 a {
 	text-decoration: underline;
 }
+
+/*
+ * Focus on keyboard users
+ * 
+ *
+ */
+:focus {
+  outline: 3px solid rgba(23, 171, 23, 0.8) !important;
+}
