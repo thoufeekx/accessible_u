@@ -80,7 +80,19 @@ a:hover {
  * Overrides browsers' visible focus indicator
  *
  */
-a:hover, a:focus, input:focus {
-  outline: none;
-  border-color: transparent;
+
+/*
+ * Edit the code to make accessible on hover 
+ *
+ */
+
+a {
+ color: green;
+}
+a:hover {
+ text-decoration: none;
+}
+
+a {
+	text-decoration: underline;
 }
