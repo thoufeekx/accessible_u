@@ -63,10 +63,10 @@ p {
  * Uses color alone to communicate "link"
  *
  */
-a {
+/* a {
   color: #777777;
 	text-decoration: none;
-}
+} */
 /*
  * Provide additional visual cues to mouse users only
  *
